@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB19B43E1D672B2E002F5586 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB19B43D1D672B2E002F5586 /* README.md */; };
-		BB19B4401D672B38002F5586 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BB19B43F1D672B38002F5586 /* LICENSE */; };
 		BBBF3A351D4A589D004142AE /* CJavaVM.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF3A331D4A589D004142AE /* CJavaVM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBC13E931D4997090035A039 /* jni_md.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC13E8E1D4997090035A039 /* jni_md.h */; };
 		BBC13E941D4997090035A039 /* jni.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC13E8F1D4997090035A039 /* jni.h */; };
@@ -135,7 +133,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB19B4401D672B38002F5586 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB19B43E1D672B2E002F5586 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
