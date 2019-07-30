@@ -1,8 +1,4 @@
-
+// swift-tools-version:4.0
 import PackageDescription
 
-let package = Package(
-    name: "CJavaVM",
-    dependencies: [
-        ]
-)
+let package = Package(name: "CJavaVM")
