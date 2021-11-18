@@ -20,4 +20,14 @@ typedef long jint;
 typedef long long jlong;
 typedef signed char jbyte;
 
+#if defined(__linux__)
+#include <unistd.h>
+#include <sys/syscall.h>
+#include <termios.h>
+
+static pid_t gettid() {
+    return syscall(SYS_gettid);
+}
+#endif
+
 #endif /* !_JAVASOFT_JNI_MD_H_ */
